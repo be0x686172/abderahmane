@@ -1,0 +1,9 @@
+.c-Circle
+{
+    position: absolute;
+    background-color: rgba($color: #ffffff, $alpha: 0.3);
+    filter: blur(10px);
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}

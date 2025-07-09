@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root 
+{
+    --background: #ebebeb;
+
+    --main-font: Inter;
+    --second-font: Ubuntu Sans;
+
+    --main-color: black;
+    --second-color: #9b9b9b;
+    --third-color: #686868;
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background-color: var(--background);
+    margin: 0 auto;
+    padding: 50px 40px 40px 0px;
+    font-family: var(--main-font);
+    padding-left: 330px;
+    max-width: 1700px;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+img 
+{
+    object-fit: cover;
+    object-position: center;
+}
