@@ -10,7 +10,6 @@ import Cv from '../pages/cv/Cv';
 const Routing = () => {
     return (
         <BrowserRouter>
-            <Circle style={{ top: '100px', left: '200px' }} />
             <Sidebar />
             <Routes>
                 <Route path="/" element={<About />} />

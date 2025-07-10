@@ -1,15 +1,17 @@
 .p-About 
-{
+{   
+    width: 100%;
+
     h1 
     {
-        font-size: 7.5em;
+        font-size: 6.5em;
     }
 
-    .s-helloworld 
+    .s-Helloworld 
     {
         margin-top: 100px;
         display: flex;
-        gap: 100px;
+        justify-content: space-between;
 
         div:first-child
         {
@@ -42,6 +44,77 @@
             {
                 margin-top: 35px;
                 font-size: 0.9em;
+            }
+        }
+    }
+    
+    .s-Education 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 140px;
+        margin-top: 100px;
+
+        div:nth-child(2)
+        {
+            div 
+            {
+                padding-left: 30px;
+            }
+        }
+    }
+
+    .s-Experience 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        margin-top: 100px;
+    }
+
+    .s-Love 
+    {
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+        margin-top: 200px;
+
+        div:first-child
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 4.3px;
+
+            p:first-child 
+            {
+                text-transform: uppercase;
+                color: var(--third-color);
+                letter-spacing: 3px;
+                font-size: 0.75em;
+                font-weight: 500;
+            }
+
+            p:nth-child(2)
+            {
+                margin-top: 7px;
+            }
+
+            p 
+            {
+                letter-spacing: 1px;
+                font-size: 2em;
+                font-weight: 700;
+            }
+        }
+
+        div 
+        {
+            display: flex;
+            gap: 20px;
+
+            figure:nth-child(2)
+            {
+                margin-top: 170px;
             }
         }
     }

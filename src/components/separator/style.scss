@@ -1,4 +1,24 @@
 .c-Separator 
 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    gap: 4px;
 
+    hr 
+    {
+        border: none;
+        height: 1px;
+        background: linear-gradient(to right, rgba(#cacaca, 0.2), rgba(#ccc, 1));
+    }
+
+    p 
+    {
+        text-transform: uppercase;
+        color: var(--second-color);
+        letter-spacing: 6px;
+        font-size: 0.7em;
+        font-weight: 550;
+        text-align: right;
+    }
 }
