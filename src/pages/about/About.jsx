@@ -16,7 +16,7 @@ const About = () => {
                     loop={false}
                     cursor
                     cursorStyle=""
-                    typeSpeed={70}
+                    typeSpeed={100}
                     deleteSpeed={120}
                     delaySpeed={1000000000}
                 />
