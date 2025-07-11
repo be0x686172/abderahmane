@@ -58,10 +58,8 @@
 
         div:nth-child(2)
         {
-            div 
-            {
-                padding-left: 30px;
-            }
+            flex-direction: row-reverse;
+        
         }
     }
 
@@ -71,6 +69,11 @@
         flex-direction: column;
         gap: 70px;
         margin-top: 100px;
+
+        .c-Education
+        {
+            flex-direction: row-reverse;
+        }
     }
 
     .s-Love 
@@ -130,4 +133,213 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@media screen and (max-width: 1357px) 
+{
+    .p-About
+    {
+        h1 
+        {
+            font-size: 6em;
+            text-align: center;
+        }
+
+        .s-Helloworld
+        {
+            flex-direction: column-reverse;
+            gap: 100px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .s-Education 
+        {
+            div:nth-child(2)
+            {
+                flex-direction: column;
+            }
+        }
+
+        .s-Experience 
+        {
+            .c-Education
+            {
+                flex-direction: column;
+            }
+        }
+
+        .s-Love 
+        {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) 
+{
+    .p-About
+    {
+        h1 
+        {
+            font-size: 5em;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .p-About
+    {
+        h1 
+        {
+            font-size: 4em;
+        }
+
+        .s-Helloworld 
+        {
+            div:first-child
+            {
+                img 
+                {
+                    width: 200px;
+                }
+
+                figcaption 
+                {
+                    font-size: 0.7em;
+                }
+            }
+        }
+
+        .s-Education 
+        {
+            div 
+            {
+                align-items: center;
+
+                h2 
+                {
+                    font-size: 1.3em;
+                }
+                
+                img 
+                {
+                    width: 400px;
+                }
+
+                figcaption 
+                {
+                    font-size: 0.7em;
+                }
+
+                p:nth-child(3)
+                {
+                    font-size: 0.9em;
+                    width: 300px;
+                }
+            }
+        }
+
+        .s-Experience 
+        {
+            div 
+            {
+                align-items: center;
+                
+                img 
+                {
+                    width: 200px;
+                }
+
+                figcaption 
+                {
+                    font-size: 0.7em;
+                }
+
+                p:nth-child(3)
+                {
+                    font-size: 0.9em;
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) 
+{
+    .p-About
+    {
+        h1 
+        {
+            font-size: 3em;
+        }
+
+        .s-Helloworld 
+        {
+            div:first-child
+            {
+                img 
+                {
+                    width: 190px;
+                }
+
+                figcaption 
+                {
+                    font-size: 0.6em;
+                }
+            }
+        }
+
+        .s-Education 
+        {
+            div 
+            {
+                align-items: center;
+                
+                img 
+                {
+                    width: 300px;
+                }
+
+                figcaption 
+                {
+                    font-size: 0.7em;
+                }
+
+                p:nth-child(3)
+                {
+                    font-size: 0.9em;
+                    width: 300px;
+                }
+            }
+        }
+
+        .s-Experience 
+        {
+            div 
+            {
+                align-items: center;
+                
+                img 
+                {
+                    width: 300px;
+                }
+
+                figcaption 
+                {
+                    font-size: 0.7em;
+                }
+
+                p:nth-child(3)
+                {
+                    font-size: 0.9em;
+                    width: 300px;
+                }
+            }
+        }
+    }
 }

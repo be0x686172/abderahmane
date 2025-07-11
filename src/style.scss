@@ -40,3 +40,10 @@ img
     object-fit: cover;
     object-position: center;
 }
+
+@media screen and (max-width: 950px) {
+    body 
+    {
+        padding: 70px 20px;
+    }
+}
